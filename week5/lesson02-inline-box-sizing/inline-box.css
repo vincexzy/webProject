@@ -1,0 +1,41 @@
+/* *{
+  margin: 0px;
+  padding: 0px;
+} */
+div.box {
+
+  width:300px;
+  height:200px;
+  background-color: #eee;
+  margin: 50px;
+  border: 3px solid #333;
+
+}
+
+
+.box > span {
+  width:1000px;
+  height:2000px;
+  padding:20px;
+  border:1px solid red;
+  margin: 10px;
+}
+
+h1{
+  background-color: red;
+}
+div.box-sizing{
+  background-color: #aaa;
+  display: inline-block;
+  border: 10px dashed #2aa297;
+  width: 200px;
+  height: 200px;
+  box-sizing: border-box;
+  margin: 20px;
+  padding: 20px;
+
+}
+div.content{
+  vertical-align:top;
+  box-sizing: content-box;
+}

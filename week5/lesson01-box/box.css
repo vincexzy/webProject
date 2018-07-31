@@ -1,0 +1,27 @@
+div.box{
+  background-color: #ccc;
+  border: 20px inset #ee00ee;
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  padding-left: 20px;
+}
+
+div.ext{
+  margin-left: -100px;
+  border: 30px ridge #ee00ee;
+}
+
+div.box:nth-child(3){
+  border-style: groove;
+  display: inline-block;
+}
+
+div.box:nth-child(4){
+  border-style: outset;
+  display: inline-block;
+}
+div.box:nth-child(5){
+  border-style: dashed;
+  display: inline-block;
+}

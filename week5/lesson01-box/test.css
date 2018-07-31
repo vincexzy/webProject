@@ -1,0 +1,27 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+html,body{
+  height: 100%;
+}
+.h{
+  /* width: 100%; */
+  height: 60px;
+  background-color: #aaa;
+}
+.l{
+  width: 180px;
+  background-color:#003366;
+  float: left;
+  height:calc(100% - 120px);
+}
+.r{
+  background-color:#994422;
+  height:calc(100% - 120px);
+}
+
+.f{
+  height: 60px;
+  background-color: #aaa;
+}
