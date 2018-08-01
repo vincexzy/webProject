@@ -1,0 +1,41 @@
+.container{
+  border: 5px solid #111;
+  padding: 0 400px 0 200px;
+  min-width: 400px;
+  overflow: hidden;
+}
+/* .container::after{
+  content: "";
+  display: block;
+  clear: both;
+} */
+.box{
+  height: 200px;
+  float: left;
+}
+.main{
+  width: 100%;
+  background-color: #e44;
+  width: 100%;
+}
+.left{
+  background-color: #3e3;
+  width: 200px;
+  margin-left: -100%;
+  position: relative;
+  left: -200px;
+}
+.right{
+  background-color: #e3e;
+  width:200px;
+  margin-left: -200px;
+  position: relative;
+  left: 200px;
+}
+.right1{
+  background-color: #33e;
+  width:200px;
+  margin-left: -200px;
+  position: relative;
+  left: 400px;
+}
