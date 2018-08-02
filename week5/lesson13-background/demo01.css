@@ -1,0 +1,18 @@
+
+.container{
+  width: 300px;
+  height: 200px;
+  border: 10px dashed #0e4c77;
+  margin: 100px auto;
+  padding: 20px;
+  background: url(p.jpg) no-repeat;
+  background-size: 100px 100px;
+  /* background-clip: border-box; */
+  background-origin: border-box;
+  overflow: auto;
+}
+p{
+  margin: 0px;
+  padding: 0px;
+  background-color: rgba(167, 27, 57, 0.5);
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <header>
+      <h1>header</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#">主页</a></li>
+        <li><a href="#">产品</a></li>
+        <li><a href="#">项目</a>
+          <ul>
+            <li><a href="#">Node.js</a>
+              <ul>
+                <li><a href="#">HTML5</a></li>
+                <li><a href="#">HTML5</a></li>
+                <li><a href="#">HTML5</a></li>
+              </ul>
+            </li>
+            <li><a href="#">DDD.js</a></li>
+            <li><a href="#">Vue.js</a></li>
+          </ul>
+        </li>
+        <li><a href="#">关于我们</a></li>
+      </ul>
+    </nav>
+    <div class="main">
+      <h2>产品展示</h2>
+
+      <section>
+        <div class="product">
+          <h4>产品名称</h4>
+          <img src="p.jpg" alt="">
+          <p>产品描述</p>
+          <p>...</p>
+        </div></section>
+
+    </div>
+    <script type="text/javascript">
+      var maindom = document.querySelector("section");
+      const dom = document.querySelector(".product");
+      console.log(dom.outerHTML);
+      for (var i = 0; i < 20; i++) {
+        maindom.insertAdjacentHTML("beforeEnd", dom.outerHTML);
+      }
+      // dom.remove();
+
+    </script>
+  </body>
+</html>

@@ -68,12 +68,8 @@ nav > ul > li > ul > li > ul{
   left: 120px;
   position: absolute;
 }
-nav > ul > li > ul > li:hover{
-  outline: 1px solid red;
-}
 nav > ul > li > ul > li:hover > ul{
   display: block;
-  outline: 1px solid red;
 }
 .main{
   width: 800px;
@@ -81,22 +77,29 @@ nav > ul > li > ul > li:hover > ul{
   border: 1px solid #aaa;
   margin: 0px auto;
 }
-.main .product{
-  display: inline-block;
+.main section{
+  min-height: 300px;
+  max-height: 500px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: auto;
+}
+.main section .product{
   width: 120px;
   height: 150px;
   border: 1px solid #000;
   text-align: center;
   margin: 15px;
 }
-.main .product img{
+.main section .product img{
   width: 90px;
 }
-.main .product h4{
+.main section .product h4{
   margin: 0px;
   padding: 0px;
 }
-.main .product p{
+.main section .product p{
   margin: 0px;
   padding: 0px;
 }

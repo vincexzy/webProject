@@ -1,0 +1,39 @@
+
+.container {
+   display:flex;
+   margin: 100px auto;
+   flex-wrap:wrap; /* 默认值nowrap */
+   flex-direction: row; /*排列方式 横 竖*/
+
+   align-content: flex-start; /* 默认值 stretch 内容上下拉伸*/
+   align-items: flex-start; /* 默认值 stretch 内容里的项目拉伸*/
+
+   justify-content: flex-start; /*左右对齐方式 */
+
+   width:300px;
+   height:300px;
+   border: 5px solid #111;
+}
+
+.container span{
+   border: 1px solid #e215fa;
+   width:50px;
+   min-height:50px;
+   margin:5px;
+   background-color: #e67683;
+   color:white;
+   font-size: 20pt;
+}
+
+.container span:last-child{
+  min-height: 20px;
+  flex-grow: 2; /* 默认值 0 */
+  order:1;
+}
+
+.container span:nth-last-child(2){
+  min-height: 20px;
+  flex-grow: 1;
+  flex-shrink: 2;
+  order:2;
+}

@@ -4,6 +4,7 @@
 }
 html,body{
   height: 100%;
+  margin: 0px auto;
 }
 
 div.header{
@@ -18,12 +19,13 @@ div.left{
   min-height: 100px;
   height:calc(100% - 120px);
   float: left;
+  /* display: flex; */
 }
 div.content{
   background-color: #2e9936;
   height:calc(100% - 120px);
   min-height: 100px;
-  display: flex;
+  /* display: flex; */
 }
 div.footer{
   background-color:#aaa;
