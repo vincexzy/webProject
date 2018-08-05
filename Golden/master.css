@@ -36,11 +36,23 @@ nav {
   color: #fff;
   font-size: 16px;
   font-weight: 800;
+  cursor: pointer;
 }
 
 .menu a:hover {
   color: #ee1;
   transition: all 0.5s ease-in .1s;
+}
+
+a.active{
+  color: #edf600;
+}
+.scroll{
+  position:fixed;
+  width: 100%;
+  z-index: 10;
+  height: 60px;
+  padding: 0px;
 }
 
 article {
